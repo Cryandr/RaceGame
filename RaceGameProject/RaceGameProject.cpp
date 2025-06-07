@@ -1,4 +1,4 @@
-﻿// RaceGameProject.cpp: A program using the TL-Engine
+// RaceGameProject.cpp: A program using the TL-Engine
 
 #include <TL-Engine.h>	// TL-Engine include file and namespace
 #include "Matrice.h"
@@ -60,6 +60,8 @@ struct AICar {
     int nextCheckpoint = 0;
 };
 std::vector<AICar> aiCars;
+
+
 
 // === Прототипы ===
 void LoadTrack();
@@ -145,7 +147,7 @@ int main() {
         if (myEngine->KeyHeld(Key_Left)) playerCar->RotateY(-60 * frameTime);
         if (myEngine->KeyHeld(Key_Right)) playerCar->RotateY(60 * frameTime);
 
-        Romanᅠ ᅠ ᅠ ᅠ, [07 / 06 / 2025 15:31]
+         
             raceCam->SetPosition(playerCar->GetX() - 10, 10, playerCar->GetZ() - 20);
         raceCam->LookAt(playerCar);
         raceTimer += frameTime;
@@ -183,9 +185,9 @@ int main() {
 
 void LoadCheckpoints(float coords[][2]) {
     for (int i = 0; i < checkpointCount; ++i) {
-        IModel* cp = checkpointMesh->CreateModel(coords[i][0], 0, coords[i][1]);
-        cp->SetSkin("checkpoint.jpg");
-        checkpoints.push_back(cp);
+        IModel* checkpoint = checkpointMesh->CreateModel(coords[i][0], 0, coords[i][1]);
+        checkpoint->SetSkin("checkpoint.jpg");
+        checkpoints.push_back(checkpoint);
     }
 }
 
@@ -281,8 +283,8 @@ void StartRace() {
     playerHealth = 100.0f;
     score = 0;
 
-    Romanᅠ ᅠ ᅠ ᅠ, [07 / 06 / 2025 15:31]
-        playerCar->SetPosition(0, 0, -50);
+
+    playerCar->SetPosition(0, 0, -50);
     aiCars[0].model->SetPosition(5, 0, -50);
     aiCars[1].model->SetPosition(-5, 0, -50);
 
@@ -342,7 +344,7 @@ void UpdateAI(float dt) {
         float dx = target->GetX() - ai.model->GetX();
         float dz = target->GetZ() - ai.model->GetZ();
         float angle = atan2(dx, dz) * 180 / PI;
-        float diff = angle - ai.model->GetYRot();
+        float diff = angle - ai.model->GetLocalY();
         if (diff > 180) diff -= 360;
         if (diff < -180) diff += 360;
         ai.model->RotateY(diff * 0.05f);
