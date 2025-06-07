@@ -1,0 +1,82 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  RaceGameProject.cpp
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(7,11): error C2011: 'axis': 'enum' type redefinition
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(7,6): message : see declaration of 'axis'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(11,17): error C2011: 'cordSystem': 'enum' type redefinition
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(11,6): message : see declaration of 'cordSystem'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(15,17): error C2011: 'Matrix2D': 'struct' type redefinition
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(209,10): error C2084: function 'Matrix2D rotateX(Matrix2D,float)' already has a body
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(209,10): message : see previous definition of 'rotateX'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(209,10): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(210,11): error C2079: 'roationMatrix' uses undefined struct 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(210,27): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(210,27): message : Too many braces around initializer for 'int'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(215,31): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(215,16): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(215,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(217,10): error C2084: function 'Matrix2D rotateY(Matrix2D,float)' already has a body
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(217,10): message : see previous definition of 'rotateY'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(217,10): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(218,11): error C2079: 'roationMatrix' uses undefined struct 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(218,27): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(218,27): message : Too many braces around initializer for 'int'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(223,31): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(223,16): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(223,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(225,10): error C2084: function 'Matrix2D rotateZ(Matrix2D,float)' already has a body
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(225,10): message : see previous definition of 'rotateZ'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(225,10): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(226,11): error C2079: 'roationMatrix' uses undefined struct 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(226,27): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(226,27): message : Too many braces around initializer for 'int'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(231,31): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(231,16): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(231,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(234,10): error C2084: function 'Matrix2D rotateBy(Matrix2D,Vector)' already has a body
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(234,10): message : see previous definition of 'rotateBy'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(234,10): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(235,25): error C2065: 'rotateX': undeclared identifier
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(235,17): error C2065: 'rotateY': undeclared identifier
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(235,9): error C2065: 'rotateZ': undeclared identifier
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(240,10): error C2084: function 'Matrix2D rotateOn(Matrix2D,Vector,float)' already has a body
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(240,10): message : see previous definition of 'rotateOn'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(240,10): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(241,22): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(246,22): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(251,22): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(256,8): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(260,10): error C2084: function 'Matrix2D rotateTo(Matrix2D,axis,Vector)' already has a body
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(260,10): message : see previous definition of 'rotateTo'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(260,10): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(266,16): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(267,17): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(270,16): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(271,17): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(274,16): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(275,17): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(283,8): error C2027: use of undefined type 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Matrice.h(15,8): message : see declaration of 'Matrix2D'
+C:\Users\User\Desktop\rm\SomethingInteresting\RaceGameProject\Particle.h(284,9): error C2065: 'rotateOn': undeclared identifier
